@@ -15,8 +15,8 @@ Porfavor deja tu cooperación voluntaria al número que aparece en la pantalla
 - [Págna de Google](https://www.google.com/)
 - [Página de Git hub](https://github.com/)
 
- ## Problemas de Programación Lineal
+## Problemas de Programación Lineal
  
- Maximizar \(x_1+x_2$\).$x_$
+ Maximizar $x_1+x_2$.
  
- Sujeto a: \(x_1+3x_2\geq 0\).
+ Sujeto a: $x_1+3x_2\geq 0$.
