@@ -17,6 +17,6 @@ Porfavor deja tu cooperación voluntaria al número que aparece en la pantalla
 
 ## Problemas de Programación Lineal
  
- Maximizar $x_1+x_2$.
+ Maximizar $$x_1+x_2$$.
  
- Sujeto a: $x_1+3x_2\geq 0$.
+ Sujeto a: $$x_1+3x_2\geq 0$$.
