@@ -1,3 +1,5 @@
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
+
 ## Página de programación lineal
 
 En esta página voy a mostar las cosas magnificas que estoy aprendiendo en mi curso magnifico de programación lineal.
@@ -12,3 +14,6 @@ Porfavor deja tu cooperación voluntaria al número que aparece en la pantalla
 - [Página de Python](https://www.python.org/)
 - [Págna de Google](https://www.google.com/)
 - [Página de Git hub](https://github.com/)
+ ### Problemas
+ Maximizar \(x_1+x_2$\).
+ Sujeto a:\(x_1+3x_2\geq 0\).
