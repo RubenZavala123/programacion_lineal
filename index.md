@@ -2,6 +2,8 @@
 
 ## Página de Programación Lineal
 
+![Area Factible](pog.png)
+
 En esta página voy a mostar las cosas magnificas que estoy aprendiendo en mi curso magnifico de programación lineal.
 
 ### Sympy 
