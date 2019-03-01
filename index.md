@@ -1,4 +1,4 @@
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 ## Página de Programación Lineal
 
@@ -15,7 +15,8 @@ Porfavor deja tu cooperación voluntaria al número que aparece en la pantalla
 - [Págna de Google](https://www.google.com/)
 - [Página de Git hub](https://github.com/)
 
- ### Problemas
+ ## Problemas de Programación Lineal
  
- Maximizar \(x_1+x_2$\).
- Sujeto a:\(x_1+3x_2\geq 0\).
+ Maximizar \(x_1+x_2$\).$x_$
+ 
+ Sujeto a: \(x_1+3x_2\geq 0\).
