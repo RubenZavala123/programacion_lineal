@@ -1,0 +1,30 @@
+#+title: Programación Lineal
+#+author: Rubén Zavala Díaz
+
+* Teoría 
+** Motivación 
+
+El objetivo de Programación Lineal es maximizar o minimizar funciones sobre
+dominios convexos,es decir,definidos sobre regiones acotadas dadas por
+varias desigualdades.
+** Ejemplos
+- El problema de la dieta.
+- Optimización de lugares en una excursión.
+- Escoger objetos optimos para un campamento.
+- El problema del Flujo Máximo.
+- Optimizacion de las Vitaminas necesarias en el cuerpo.
+** Convexidad
+Un conjunto \(X\) es *convexo* si para todos \( )
+** Método Simplex
+
+* Herramientas Computacionales
+
+** Emacs
+** Git
+*** GitHub
+*** Git en la terminal 
+** Python
+*** El lenguaje Python
+*** Jupyter
+** LaTeX 
+
