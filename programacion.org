@@ -2,6 +2,7 @@
 #+author: Rubén Zavala Díaz
 
 #+options: H:2
+#+latex_header: \usepackage{listings}
 
 * Teoría 
 ** Motivación 
@@ -20,7 +21,7 @@ varias desigualdades.
 Un conjunto \(X\) es *convexo* si para todos \(x,y\in X\) y
 \(t\in[0,1]\) se tiene que \(tx+(1-t)y\in X\)
 ** Método Simplex
-
+   
 * Herramientas Computacionales
 
 ** Emacs
@@ -36,11 +37,40 @@ Un conjunto \(X\) es *convexo* si para todos \(x,y\in X\) y
    | M-w           | Copiar la región                         |
    | C-y           | Copiar la región                         |
    | Shift-flechas | Seleccionar la región                    |
+
+*** ORG mode
+    | C-c C-c | corre un bloque de codigo |
+    |
 ** Git
 *** GitHub
 *** Git en la terminal 
 ** Python
 *** El lenguaje Python
+    En el lenguaje Python pdemos hacer varias cosas, por ejemplo operaciones :
+ #+begin_src python :session
+2+2
+ #+end_src
+
+ #+RESULTS:
+ : 4
+ Tambien podemos usar la biblioteca pulp y por ejemplo,encontramos el
+ máximo de \(-4x+y\) sujeto a \(x+y\leq \frac{1}{2}\)
+#+begin_src python :session
+from pulp import *
+x = LpVariable("x", 0, 3)
+y = LpVariable("y", 0, 1)
+prob = LpProblem("Mi Problema", LpMinimize)
+prob += x + y <= 2
+prob += -4*x + y
+prob
+status = prob.solve()
+value(x),value(y),value(prob.objective)
+#+end_src
+
+#+RESULTS:
+| 2.0 | 0.0 | -8.0 |
+
 *** Jupyter
 ** LaTeX 
 
+   
