@@ -28,3 +28,5 @@
    \end{equation*}
    - Siguiente paso...
 * Teoremas 
+
+  Demostraremos que el minimo del problema Dual es igual al máximo del problema primitivo.
