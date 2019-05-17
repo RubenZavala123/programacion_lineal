@@ -1,0 +1,66 @@
+% Created 2019-05-17 vie 12:17
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Rubén Zavala Díaz}
+\date{17 de mayo del 2019}
+\title{Dualidad en programación Lineal}
+\hypersetup{
+ pdfauthor={Rubén Zavala Díaz},
+ pdftitle={Dualidad en programación Lineal},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.2.2 (Org mode 9.2.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Introducción}
+\label{sec:org389be92}
+La Dualidad es una manera de asociar un cierto problema de
+programación lineal a cada problema de programacón lineal
+\section{Ejemplo}
+\label{sec:org7bca6a7}
+
+Consideremos el siguiente problema de Programaón Lineal:
+\begin{equation*}
+ \begin{aligned}
+ \text{Maximizar} \quad & 2x_{1}+3x_{2}\\
+ \text{sujeto a} \quad &
+   \begin{aligned}
+    4x_{1}+8x_{2} &\leq 12\\
+    2x_{1}+x_{2} &\leq 3\\
+    3x_{1}+2x_{2} &\leq 4\\
+    x_{1} &\geq  0\\
+    x_{2} &\geq 0
+   \end{aligned}
+ \end{aligned}
+ \end{equation*}
+
+\begin{itemize}
+\item Podemos observar que bajo las restricciones la función objetivo es menor que 12 ya que:
+\end{itemize}
+\begin{equation*}
+     zx_{1}+3x_{2}\leq 4x_{1}+8x_{2}\leq 12.
+\end{equation*}
+\begin{itemize}
+\item Siguiente paso\ldots{}
+\end{itemize}
+\section{Teoremas}
+\label{sec:org010a598}
+\end{document}
